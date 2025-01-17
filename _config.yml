@@ -1,6 +1,6 @@
 # Configuration for the academic website
 
-site_name: "Mengfei Zhao's Academic Website"
+site_name: "Mengfei Zhao"
 base_url: "/"
 theme: "academic"
 plugins:
