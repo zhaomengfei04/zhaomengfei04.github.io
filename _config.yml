@@ -135,17 +135,18 @@ navbar-var-length: false
 
 
 # --- Colours / background image --- #
-navbar-col: "#2e2e2e"  # Dark grey for navbar background
+navbar-col: "#333333"  # Slightly lighter dark grey for navbar background
 navbar-text-col: "#d0d0d0"  # Light grey for navbar text
 navbar-border-col: "#444"  # Dark border
-page-col: "#1e1e1e"  # Dark background for the page
+page-col: "#2a2a2a"  # Dark grey for the page background (not as black)
 text-col: "#f0f0f0"  # Light grey text
 link-col: "#008AFF"  # Links color
 hover-col: "#00aaff"  # Hover effect color for links
-footer-col: "#2e2e2e"  # Dark footer background
+footer-col: "#333333"  # Slightly lighter dark grey footer background
 footer-text-col: "#777"  # Footer text color
 footer-link-col: "#aaa"  # Footer link color
 footer-hover-col: "#00aaff"  # Hover color for footer links
+
 
 
 # Alternatively, the navbar, footer, and page background can be set to an image
