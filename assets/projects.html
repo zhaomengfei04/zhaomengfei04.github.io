@@ -1,0 +1,56 @@
+---
+layout: page
+title: Projects
+---
+
+<h2>TensorNEAT</h2>
+<p>GitHub: <a href="https://github.com/EMI-Group/tensorneat" target="_blank">github.com/EMI-Group/tensorneat</a> (91 stars)</p>
+<p style="font-size: 16px;">
+  In the TensorNEAT project, I contributed significantly by simplifying the NEAT algorithm design and conducting extensive experimental research. The goal of this project was to implement the NEAT algorithm using the JAX framework, which allowed for tensorized representation and parallel computation. By using JAX, we achieved a significant performance improvement—up to a 10x-100x speedup compared to the original Python-NEAT implementation. My main role was to handle the algorithm's simplification and optimization, as well as to experiment with various hyperparameters and compare the results with existing algorithms. 
+<hr>
+
+<h2>GECCO Interpretable Control Competition</h2>
+<p>GitHub: <a href="https://github.com/EMI-Group/interpretable-control-competition-walker-submit" target="_blank">https://github.com/EMI-Group/interpretable-control-competition-walker-submit</a></p>
+<p style="font-size: 16px;">
+  In the GECCO 2024 Interpretable Control Competition, our team achieved second place by combining neural evolution with pruning to solve the Walker2D task with a neural network consisting of only 30 parameters. My primary responsibility was to optimize the algorithm's design and tune its hyperparameters. I focused on improving the performance of the TensorNEAT algorithm on this task by experimenting with various pruning techniques and neural evolution strategies. As a result of my efforts, we were able to significantly outperform previous solutions, achieving superior results with a much smaller and more efficient model. 
+</p>
+
+<hr>
+
+h2>INCEPT Algorithm</h2>
+<p style="font-size: 16px;">
+  The INCEPT algorithm was independently designed by me with the goal of achieving high pruning rates while maintaining model performance. The algorithm has demonstrated impressive results, achieving up to a 97% pruning rate on the Humanoid and several MuJoCo tasks without sacrificing the accuracy of the model. This is a significant breakthrough in the field of neural network pruning, as it outperforms current state-of-the-art algorithms in terms of training cost, model accuracy, and pruning rate. The INCEPT algorithm is currently being prepared for submission to *Nature Machine Intelligence*, where we hope to share our findings with the broader research community. 
+</p>
+
+<p style="font-size: 16px;">
+  Below is a visualization of a humanoid model with only 3,000 parameters. Despite the reduction in parameters, the pruned model performs similarly to the original model, which has 100,000 parameters. This is a testament to the effectiveness of the INCEPT algorithm in reducing model complexity while maintaining high performance. 
+<img src="assets/img/humanoid_pruned.png" alt="Humanoid Pruned" style="width: 100%; max-width: 600px;">
+
+
+<p style="font-size: 16px;">
+  Below is the visualization of the Walker2D model after pruning. The image clearly shows the network's connection pattern post-pruning, where the critical connections are maintained while the non-essential ones are removed. This pruning process not only optimizes the network but also makes it more interpretable.
+<img src="assets/img/Network.png" alt="Walker2D Pruned Network" style="width: 100%; max-width: 600px;">
+<hr>
+
+<h2>PPO Real-Time Obstacle Avoidance on CARLA Platform</h2>
+<p style="font-size: 16px;">
+  In this project, I implemented ppo for real-time obstacle avoidance on the CARLA simulation platform, a popular platform for autonomous driving research. The goal was to train an agent to navigate a complex environment while avoiding obstacles in real time. This project was part of a course project, and I was responsible for implementing the PPO algorithm, tuning the hyperparameters, and optimizing the training process.
+<h3>PPO Real-Time Obstacle Avoidance</h3>
+<p style="font-size: 16px;">
+  Below is a video showing the PPO agent navigating the CARLA platform, avoiding obstacles, and successfully reaching its navigation point.
+</p>
+<video width="600" controls>
+  <source src="assets/carla.mp4" type="video/mp4">
+</video>
+
+<hr>
+
+<h2>INCEPT on Genesis Platform</h2>
+<p style="font-size: 16px;">
+  Currently, I am working on migrating the INCEPT algorithm to the Genesis platform, which will allow us to conduct extensive experimentation and further evaluate the algorithm's performance across different robotic tasks. 
+<p style="font-size: 16px;">
+  Below is a video showing the Go2 robot performing a backflip. T
+</p>
+<video width="600" controls>
+  <source src="assets/backflip.mp4" type="video/mp4">
+</video>
